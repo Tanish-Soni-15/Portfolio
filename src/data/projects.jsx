@@ -1,5 +1,96 @@
 export const ProjectsData = [
   {
+    "title": "Apify Manager",
+    "description": "A MERN stack project for managing Apify Actors and automated workflows.",
+    "detailedDescription": "Apify Manager is a full-stack application that integrates with the Apify platform to run and monitor Actors for automated web scraping and workflow management. It provides a dashboard for starting, stopping, and tracking jobs with error handling and responsive UI.",
+    "image": "/apify-manager.png",
+    "technologies": [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "TailwindCss",
+      "Apify API"
+    ],
+    "features": [
+      "Integration with Apify Actors",
+      "Actor Management Dashboard",
+      "Job Execution & Monitoring",
+      "Real-time Data Display",
+      "Error Handling & Notifications",
+      "Responsive Design"
+    ],
+    "github": "https://github.com/Tanish-Soni-15/apify-manager",
+    "live": "https://apify-manager.vercel.app/",
+    "category": "Full-Stack",
+    "duration": "1 weak",
+    "teamSize": "Solo Project",
+    "linesOfCode": "1000+"
+  },
+  {
+  "title": "ShopHub - E-Commerce Platform",
+  "description": "A full-stack MERN e-commerce application with Stripe payment integration (including UPI support), secure authentication, and an admin dashboard.",
+  "detailedDescription": "ShopHub is a production-ready e-commerce application built with the MERN stack. It allows users to browse a dynamic product catalog, add items to a cart, and make secure purchases through Stripe with UPI support. The platform includes OTP email verification, real-time inventory updates, and an intuitive admin dashboard for managing products and orders. Designed with a responsive UI to deliver a seamless experience across desktop and mobile devices.",
+  "image": "/shophub.png",
+  "technologies": [
+    "React",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Redux",
+    "TailwindCss",
+    "JWT",
+    "Stripe API",
+    "Nodemailer"
+  ],
+  "features": [
+    "User Authentication with JWT",
+    "Stripe Payment Gateway with UPI Support",
+    "OTP Email Verification",
+    "Product Catalog with Search & Filters",
+    "Shopping Cart & Wishlist",
+    "Admin Dashboard for Product & Order Management",
+    "Order & Inventory Management",
+    "Real-time Inventory Updates",
+    "Responsive and Modern UI"
+  ],
+  "github": "https://github.com/Tanish-Soni-15/mern-ecommerce",
+  "live": "https://mern-ecommerce-stripe.vercel.app/",
+  "category": "Full-Stack",
+  "duration": "3 weak",
+  "teamSize": "Solo Project",
+  "linesOfCode": "1500+"
+},
+  {
+    "title": "JobBot AI",
+    "description": "An AI-powered SaaS tool that matches resumes with job descriptions using the Gemini API.",
+    "detailedDescription": "JobBot AI is a MERN stack application integrated with the Gemini API to intelligently analyze resumes against job descriptions. It provides detailed matching scores, strengths, and improvement tips for candidates, making the hiring process smoother for both recruiters and applicants.",
+    "image": "/jobbot.png",
+    "technologies": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Express.js",
+      "TailwindCss",
+      "Gemini API",
+      "Redux"
+    ],
+    "features": [
+      "Resume and Job Description Analysis",
+      "AI-powered Match Score Calculation",
+      "Actionable Suggestions for Improvement",
+      "Secure User Authentication",
+      "Responsive Dashboard",
+      "Integration with Gemini API"
+    ],
+    "github": "https://github.com/Tanish-Soni-15/jobbot",
+    "live": "https://jobbot-lac.vercel.app/",
+    "category": "Full-Stack",
+    "duration": "2 weak",
+    "teamSize": "Solo Project",
+    "linesOfCode": "1000+"
+  },
+  {
     title: "E-Commerce Platform",
     description:
       "A full-stack e-commerce application built with MERN stack featuring user authentication, product management and shopping cart",
